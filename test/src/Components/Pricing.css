@@ -1,0 +1,69 @@
+.pricing-container {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .pricing-title {
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #222;
+  }
+  
+  .pricing-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .pricing-card {
+    position: relative;
+    width: 320px;
+    height: 420px;
+    border-radius: 16px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease;
+  }
+  
+  .pricing-card:hover {
+    transform: translateY(-8px);
+  }
+  
+  .pricing-overlay {
+    background: rgba(0, 0, 0, 0.55);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 16px;
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  .card-price {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #00bcd4;
+    margin-top: 5px;
+  }
+  
+  .card-description {
+    margin-top: 10px;
+    color: #ddd;
+  }
+  
+  .subscribe-btn {
+    margin-top: 15px;
+    border-radius: 8px;
+    background-color: #007bff !important;
+  }
+  
