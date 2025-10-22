@@ -18,6 +18,7 @@ const pages = [
   { name: "Home", path: "/" },
   { name: "Products", path: "/products" },
   { name: "Pricing", path: "/pricing" },
+  { name: "Card", path: "/card" },
   { name: "Blog", path: "/blog" }
 ];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];

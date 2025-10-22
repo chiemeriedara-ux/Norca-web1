@@ -1,14 +1,18 @@
+import React from "react";
+import './Home.css';
 
 export default function Home() {
   return (
     <div className="home">
       <header className="hero">
-        <h1>Welcome to Norca Industries</h1>
-        <p>
-          Innovating across technology, finance, and design — empowering global brands 
-          and individuals to achieve more through smart solutions.
-        </p>
-        <button className="hero-btn">Explore Our Work</button>
+        <div className="hero-overlay">
+          <h1>Welcome to Norca Industries</h1>
+          <p>
+            Innovating across technology, finance, and design — empowering global
+            brands and individuals to achieve more through smart solutions.
+          </p>
+          <button className="hero-btn">Explore Our Work</button>
+        </div>
       </header>
 
       <section className="about">

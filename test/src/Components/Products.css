@@ -1,0 +1,110 @@
+.products {
+    background-color: #f5f7fa;
+    color: #222;
+    padding: 60px 20px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* Header Section */
+  .product-header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 10px;
+  }
+  
+  .product-header p {
+    font-size: 1.1rem;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto 50px;
+    line-height: 1.6;
+  }
+  
+  /* Product Grid */
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    justify-items: center;
+  }
+  
+  /* Product Card */
+  .product-card {
+    position: relative;
+    width: 100%;
+    max-width: 350px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    cursor: pointer;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.25);
+  }
+  
+  /* Overlay */
+  .product-overlay {
+    background: rgba(0, 0, 0, 0.55);
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: left;
+    transition: background 0.4s ease;
+  }
+  
+  .product-card:hover .product-overlay {
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
+  .product-overlay h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .product-overlay p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #e3e3e3;
+  }
+  
+  /* Footer Section */
+  .product-footer {
+    margin-top: 60px;
+    background-color: #111;
+    color: #fff;
+    padding: 40px 20px;
+    border-radius: 12px;
+  }
+  
+  .product-footer p {
+    font-size: 1.05rem;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.7;
+    color: #ccc;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .product-header h1 {
+      font-size: 2rem;
+    }
+  
+    .product-card {
+      height: 350px;
+    }
+  }
+  

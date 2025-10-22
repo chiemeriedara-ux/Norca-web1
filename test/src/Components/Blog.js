@@ -1,3 +1,5 @@
+import React from "react";
+import './Blog.css';
 
 export default function Blog() {
   return (
@@ -11,31 +13,47 @@ export default function Blog() {
       </header>
 
       <section className="blog-grid">
-        <div className="blog-post">
-          <h3>AI in Modern Trading</h3>
-          <p>
-            Artificial intelligence continues to shape how traders make decisions.
-            Here’s how Norca integrates predictive models for smarter strategies.
-          </p>
-          <button>Read More</button>
+        <div
+          className="blog-post"
+          style={{ backgroundImage: "url('/images/blog1.jpg')" }}
+        >
+          <div className="blog-content">
+            <h3>AI in Modern Trading</h3>
+            <p>
+              Artificial intelligence continues to shape how traders make
+              decisions. Here’s how Norca integrates predictive models for
+              smarter strategies.
+            </p>
+            <button>Read More</button>
+          </div>
         </div>
 
-        <div className="blog-post">
-          <h3>Building Trust in FinTech</h3>
-          <p>
-            Security and transparency remain the backbone of financial innovation.
-            Learn how we design with trust as our first principle.
-          </p>
-          <button>Read More</button>
+        <div
+          className="blog-post"
+          style={{ backgroundImage: "url('/images/blog2.jpg')" }}
+        >
+          <div className="blog-content">
+            <h3>Building Trust in FinTech</h3>
+            <p>
+              Security and transparency remain the backbone of financial
+              innovation. Learn how we design with trust as our first principle.
+            </p>
+            <button>Read More</button>
+          </div>
         </div>
 
-        <div className="blog-post">
-          <h3>The Future of Automation</h3>
-          <p>
-            From workflow bots to predictive analytics, automation is redefining
-            efficiency — and we’re helping lead that change.
-          </p>
-          <button>Read More</button>
+        <div
+          className="blog-post"
+          style={{ backgroundImage: "url('/images/blog3.jpg')" }}
+        >
+          <div className="blog-content">
+            <h3>The Future of Automation</h3>
+            <p>
+              From workflow bots to predictive analytics, automation is
+              redefining efficiency — and we’re helping lead that change.
+            </p>
+            <button>Read More</button>
+          </div>
         </div>
       </section>
     </div>
